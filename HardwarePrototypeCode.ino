@@ -1,11 +1,11 @@
 //NodeMCU ESP8266 and Thingspeak initialization
 #include <ESP8266WiFi.h>
 #include "ThingSpeak.h"
-const char* ssid = "Arnav's Android"; // your network SSID (name)
-const char* password = "abcde123"; // your network password
+const char* ssid = "..."; // your network SSID (name)
+const char* password = "..."; // your network password
 WiFiClient client;
-unsigned long myChannelNumber = 1898562;
-const char * myWriteAPIKey = "G71SDBACFUCGUBCM";
+unsigned long myChannelNumber = ...; //channel number
+const char * myWriteAPIKey = "..."; //Thingspeak API key for the channel
 //RFID initialization
 #include <SPI.h>
 #include <MFRC522.h>
