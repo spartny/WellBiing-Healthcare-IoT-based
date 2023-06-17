@@ -10,6 +10,7 @@ case, the patients and the doctor. Additionally, the Doctor can add records to t
 IoT cloud directly from the Java application if required.
 
 ## Hardware Interface
+![image](https://github.com/spartny/WellBiing-Healthcare-IoT-based/assets/105193713/eee839c4-3261-4633-95f9-f4f5454d464a)
 The sensor data with the health parameters- Heart rate, Blood oxygen, and
 Temperature along with the RFID identity would be sent to the NodeMCU
 ESP8266 12E and subsequently communicated to the IoT Cloud using its onboard
